@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "RxBluetoothKit_Airthings"
-  s.version          = "6.3.2"
+  s.version          = "6.3.3"
   s.summary          = "Bluetooth library for RxSwift (initially built by Polidea)"
 
   s.description      = <<-DESC
@@ -28,5 +28,5 @@ Pod::Spec.new do |s|
   s.source_files = 'Source/*.swift'
   s.osx.exclude_files = 'Source/RestoredState.swift', 'Source/CentralManager+RestoredState.swift', 'Source/CentralManagerRestoredState.swift'
   s.frameworks   = 'CoreBluetooth'
-  s.dependency 'RxSwift', '~> 6.5.0'
+  s.dependency 'RxSwift', '~> 6.0'
 end
